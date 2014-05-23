@@ -7,17 +7,16 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrap">
-<!--       {{ content }}   -->
+    <div>
+    	{{ content }}
 
- {% capture uv %}{% include uv.md %}{% endcapture %}
- {{ uv | markdownify }}        
+    	{% capture uv %}{% include uv.md %}{% endcapture %}
+    	{{ uv | markdownify }}        
 
-      </div>
     </div>
 
     {% include footer.html %}
 
-    </body>
+	</body>
+
 </html>
