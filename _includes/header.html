@@ -6,13 +6,13 @@
     </div>
     <div class="large-9 columns">
       <ul class="button-group right">
-        <li><a href="#" class="button">Link 1</a></li>
-        <li><a href="#" class="button">Link 2</a></li>
-        <li><a href="#" class="button">Link 3</a></li>
-        <li><a href="#" class="button">Link 4</a></li>
 
         {% for page in site.pages %}
-          <li><a href="{{ page.url | prepend: site.baseurl }}" class="button">{{ page.title }}</a></li>
+        {% if page.top %}
+        <li>
+          <a href="{{ page.url | prepend: site.baseurl }}" class="button">{{ page.title }}</a>
+        </li>
+        {% endif %}
         {% endfor %}
 
       </ul>
