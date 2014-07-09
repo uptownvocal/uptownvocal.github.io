@@ -2,19 +2,21 @@
 layout: default
 ---
 
-<div class="home">
+<div class="row">
+  <div class="large-12 columns">
+    <img src="http://placehold.it/1000x400&text=[img]">
 
-  <h1>Posts</h1>
+    <hr>
+  </div>
+</div>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="row">
+  <div class="large-8 columns">  
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    {{ site.posts }}
 
+  </div>
+  <div class="large-4 columns">  
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at tincidunt risus. Quisque nec erat ante. Suspendisse elementum ipsum urna, sit amet sagittis leo euismod a. Donec dignissim, ligula quis commodo tincidunt, ligula arcu sodales ligula, porta sollicitudin dui magna et orci. Nullam elit lorem, ultrices aliquam commodo vitae, ullamcorper in tortor. Ut diam orci, vehicula vitae elementum venenatis, interdum non elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fringilla felis a augue adipiscing, id porttitor arcu volutpat. Quisque augue dui, auctor id ullamcorper ac, gravida vitae nisi. Nunc eget nunc ut enim pellentesque porttitor. Pellentesque ultrices lacinia urna vel rhoncus.</p>
+  </div>
 </div>
