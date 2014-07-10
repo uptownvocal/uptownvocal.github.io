@@ -2,7 +2,7 @@
 
   <div class="row">
     <div class="large-3 columns">
-      <h1><img src="{{ site.baseurl }}/assets/img/logo.png"></h1>
+      <h1><img src="{{ site.imgurl }}/logo.png"></h1>
     </div>
     <div class="large-9 columns">
       <ul class="button-group right">
@@ -10,7 +10,7 @@
         {% for page in site.pages %}
         {% if page.top %}
         <li>
-          <a href="{{ page.url | prepend: site.baseurl }}" class="button">{{ page.title }}</a>
+          <a href="{{ page.url | prepend: site.baseurl }}" class="button top-nav">{{ page.title }}</a>
         </li>
         {% endif %}
         {% endfor %}

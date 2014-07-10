@@ -4,6 +4,7 @@ email: uptownvocal@columbia.edu
 description: "Columbia University's Premier Jazz A Cappella Group!"
 baseurl: ""
 url: "http://www.uptownvocal.com"
+imgurl: "/assets/img"
 
 # Build settings
 markdown: kramdown
