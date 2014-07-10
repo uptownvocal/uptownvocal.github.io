@@ -4,5 +4,12 @@
 }
 
 .site-header {
-	padding-bottom: 34px;
+	margin: 0 0 34px 0;
+	height: 130px;
+	background-color: white;
+	border-bottom: 5px solid blue;
+}
+
+body {
+	background: url("/assets/img/lined-background.png") repeat 0 0 transparent;
 }
