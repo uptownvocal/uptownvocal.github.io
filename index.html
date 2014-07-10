@@ -19,7 +19,20 @@ top: true
   <div class="row">
     <div class="large-12 columns">
       <h1>Upcoming Events</h1>
-      {{ site.posts }}
-    <div class="large-12 columns">      
+    </div>
   </div>
+
+  {% for post in site.posts %}
+
+  <div class="row">
+    <div class="large-12 columns">
+      <h1>{{ post.title }}</h1>
+      
+      {{ post.content }}
+      
+    </div>
+  </div>
+
+  {% endfor %}
+
 </div>
