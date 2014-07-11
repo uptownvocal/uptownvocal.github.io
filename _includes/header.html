@@ -10,7 +10,7 @@
         {% for page in site.pages %}
         {% if page.top %}
         <li>
-          <a href="{{ page.url | prepend: site.baseurl }}" class="button top-nav">{{ page.title }}</a>
+          <a href="{{ page.url | prepend: site.baseurl }}" class="cuprum button">{{ page.title }}</a>
         </li>
         {% endif %}
         {% endfor %}
@@ -18,5 +18,5 @@
       </ul>
     </div>
   </div>
-  
+
 </header>

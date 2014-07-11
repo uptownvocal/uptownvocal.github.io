@@ -7,29 +7,31 @@ top: true
 <div class="row">
   <div class="large-12 columns">
     <img src="http://placehold.it/1000x400&text=[img]">
-    <hr>
   </div>
 </div>
 
 <div class="row">
   <div class="large-12 columns">  
-    <p><strong>Uptown Vocal</strong> is Columbia University’s premier jazz a cappella group. Founded in 1991, Uptown Vocal has spent the past 25 years performing on campus, all around New York City, and at many other colleges and universities. Recently, UV has performed at the White House and the Popeyes Chicken jingle on Fox & Friends.</p>
+    <p class="blurb"><strong>Uptown Vocal</strong> is Columbia University’s premier jazz a cappella group. Founded in 1991, Uptown Vocal has spent the past 25 years performing on campus, all around New York City, and at many other colleges and universities. Recently, UV has performed at the White House and the Popeyes Chicken jingle on Fox & Friends.</p>
   </div>
 
   <div class="row">
     <div class="large-12 columns">
-      <h1>Upcoming Events</h1>
+      <h1 class="cuprum text-center">Upcoming Events</h1>
     </div>
   </div>
 
   {% for post in site.posts %}
 
   <div class="row">
-    <div class="large-12 columns">
-      <h1>{{ post.title }}</h1>
-      
-      {{ post.content }}
-      
+    <div class="large-12 columns event">
+      <div class="event-header">
+        <h1>{{ post.title }}</h1>
+        <h4>Posted on {{ post.date | date: "%B %-d, %Y" }}</h4>
+      </div>
+      <article class="event-body">
+        {{ post.content }}
+      </article>
     </div>
   </div>
 
