@@ -1,0 +1,23 @@
+<footer class="row">
+
+  <div class="large-12 columns">
+    <hr/>
+    <div class="row">
+      <div class="large-6 columns">
+        <p>© Uptown Vocal {{ site.time | date: "%Y" }}</p>
+      </div>
+      <div class="large-6 columns">
+        <ul class="inline-list right">
+
+          {% for page in site.pages %}
+
+            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>          
+
+          {% endfor %}
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</footer>

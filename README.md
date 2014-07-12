@@ -1,4 +1,3 @@
-Uptown Vocal Website (under construction)
-=========================================
-
+Uptown Vocal Website
+====================
 
