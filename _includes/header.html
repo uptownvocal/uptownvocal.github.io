@@ -6,15 +6,11 @@
     </div>
     <div class="large-8 columns">
       <ul class="button-group right">
-
-        {% for page in site.pages %}
-        {% if page.top %}
-        <li>
-          <a href="{{ page.url | prepend: site.baseurl }}" class="cuprum button">{{ page.title }}</a>
-        </li>
-        {% endif %}
-        {% endfor %}
-
+        <li><a href="{{ site.baseurl }}/"        class="cuprum button">Home</a></li>
+        <li><a href="{{ site.baseurl }}/music"   class="cuprum button">Music</a></li>
+        <li><a href="{{ site.baseurl }}/members" class="cuprum button">Members</a></li>
+        <li><a href="{{ site.baseurl }}/about"   class="cuprum button">About</a></li>
+        <li><a href="{{ site.baseurl }}/contact" class="cuprum button">Contact</a></li>       
       </ul>
     </div>
   </div>
