@@ -2,19 +2,15 @@
 
   <div class="row">
     <div class="large-4 columns">
-      <h1><img src="{{ site.imgurl }}/logo.png"></h1>
+      <h1><img style="max-height: 116px;" src="{{ site.imgurl }}/logo.png"></h1>
     </div>
     <div class="large-8 columns">
       <ul class="button-group right">
-
-        {% for page in site.pages %}
-        {% if page.top %}
-        <li>
-          <a href="{{ page.url | prepend: site.baseurl }}" class="cuprum button">{{ page.title }}</a>
-        </li>
-        {% endif %}
-        {% endfor %}
-
+        <li><a href="{{ site.baseurl }}/"        class="cuprum dark button">Home</a></li>
+        <li><a href="{{ site.baseurl }}/music"   class="cuprum dark button">Music</a></li>
+        <li><a href="{{ site.baseurl }}/members" class="cuprum dark button">Members</a></li>
+        <li><a href="{{ site.baseurl }}/about"   class="cuprum dark button">About</a></li>
+        <li><a href="{{ site.baseurl }}/contact" class="cuprum dark button">Contact</a></li>       
       </ul>
     </div>
   </div>
