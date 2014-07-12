@@ -58,3 +58,7 @@ body {
 	border-bottom-right-radius: 16px;
 	border-bottom-left-radius: 16px;	
 }
+
+.no-border-video {
+	padding-bottom: 53.34%;
+}
