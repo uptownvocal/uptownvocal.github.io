@@ -1,5 +1,7 @@
 body {
 	background: url("/assets/img/lined-background.png") repeat 0 0 transparent;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
 }
 
 .site-header {
@@ -16,7 +18,8 @@ body {
 
 .blurb {
 	padding: 10px 40px;
-}
+	font-size: 1.1rem;	
+} 
 
 .event {
 	padding-bottom: 32px;
@@ -61,4 +64,16 @@ body {
 
 .no-border-video {
 	padding-bottom: 53.34%;
+}
+
+.inner-shadow {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
 }
