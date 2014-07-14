@@ -8,8 +8,13 @@ body {
   margin: 0 0 34px 0;
   background-color: white;
   border-bottom: 5px solid rgb(0,150,255);
-  padding-bottom: 12px;
+  /*padding-bottom: 12px;*/
   margin-bottom: 18px;
+}
+
+.logo-img {
+  text-align: center;
+  padding-bottom: 8px;
 }
 
 .cuprum {
@@ -153,4 +158,13 @@ body {
 
 .navbutton:hover {
   background-color: rgb(100,145,200);
+}
+
+@media only screen and (max-width: 640px) {
+  .current-tab, .navbutton {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: .8rem;
+    letter-spacing: 1px;
+  }
 }
