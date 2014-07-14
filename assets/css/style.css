@@ -8,7 +8,8 @@ body {
   margin: 0 0 34px 0;
   background-color: white;
   border-bottom: 5px solid rgb(0,150,255);
-  padding-bottom: 12px;  
+  padding-bottom: 12px;
+  margin-bottom: 18px;
 }
 
 .cuprum {
@@ -92,4 +93,16 @@ body {
 
 .dark:hover {
   background-color: rgb(0,150,255);
+}
+
+.current-tab {
+  background-color: rgb(255,165,40);
+  height: 56px;
+  -webkit-box-shadow: 2px 2px 4px #888888;  
+  -moz-box-shadow: 2px 2px 4px #888888;
+  box-shadow: 2px 2px 4px #888888;
+}
+
+.current-tab:hover {
+  background-color: rgb(255,150,0);
 }

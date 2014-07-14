@@ -6,11 +6,41 @@
     </div>
     <div class="large-8 columns">
       <ul class="button-group right">
-        <li><a href="{{ site.baseurl }}/"        class="cuprum dark button">Home</a></li>
-        <li><a href="{{ site.baseurl }}/music"   class="cuprum dark button">Music</a></li>
-        <li><a href="{{ site.baseurl }}/members" class="cuprum dark button">Members</a></li>
-        <li><a href="{{ site.baseurl }}/about"   class="cuprum dark button">About</a></li>
-        <li><a href="{{ site.baseurl }}/contact" class="cuprum dark button">Contact</a></li>       
+        <li><a href="{{ site.baseurl }}/"        
+          {% if page.title == 'Home' %}
+          class="current-tab cuprum dark button">
+          {% else %}
+          class="cuprum dark button">
+          {% endif %}
+          Home</a></li>
+        <li><a href="{{ site.baseurl }}/music"
+          {% if page.title == 'Music' %}
+          class="current-tab cuprum dark button">
+          {% else %}
+          class="cuprum dark button">
+          {% endif %}
+          Music</a></li>
+        <li><a href="{{ site.baseurl }}/members" 
+         {% if page.title == 'Members' %}
+         class="current-tab cuprum dark button">
+         {% else %}
+         class="cuprum dark button">
+         {% endif %}
+         Members</a></li>
+        <li><a href="{{ site.baseurl }}/about"   
+         {% if page.title == 'About' %}
+         class="current-tab cuprum dark button">
+         {% else %}
+         class="cuprum dark button">
+         {% endif %}
+         About</a></li>
+        <li><a href="{{ site.baseurl }}/contact" 
+         {% if page.title == 'Contact' %}
+         class="current-tab cuprum dark button">
+         {% else %}
+         class="cuprum dark button">
+         {% endif %}
+         Contact</a></li>    
       </ul>
     </div>
   </div>
