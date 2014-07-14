@@ -97,12 +97,60 @@ body {
 
 .current-tab {
   background-color: rgb(255,150,0);  
-  height: 56px;
-  -webkit-box-shadow: 2px 2px 4px #888888;  
-  -moz-box-shadow: 2px 2px 4px #888888;
-  box-shadow: 2px 2px 4px #888888;
+  height: 58px;
+
+  -webkit-box-shadow: 1px 0px rgb(200,100,0), 0px 1px rgb(127,75,0),
+  2px 1px rgb(200,100,0), 1px 2px rgb(127,75,0),
+  3px 2px rgb(200,100,0), 2px 3px rgb(127,75,0),
+  4px 3px rgb(200,100,0), 3px 4px rgb(127,75,0),
+  5px 4px rgb(200,100,0), 4px 5px rgb(127,75,0),
+  6px 5px rgb(200,100,0), 5px 6px rgb(127,75,0); 
+
+  -moz-box-shadow: 1px 0px rgb(200,100,0), 0px 1px rgb(127,75,0),
+  2px 1px rgb(200,100,0), 1px 2px rgb(127,75,0),
+  3px 2px rgb(200,100,0), 2px 3px rgb(127,75,0),
+  4px 3px rgb(200,100,0), 3px 4px rgb(127,75,0),
+  5px 4px rgb(200,100,0), 4px 5px rgb(127,75,0),
+  6px 5px rgb(200,100,0), 5px 6px rgb(127,75,0); 
+
+  box-shadow: 1px 0px rgb(200,100,0), 0px 1px rgb(127,75,0),
+  2px 1px rgb(200,100,0), 1px 2px rgb(127,75,0),
+  3px 2px rgb(200,100,0), 2px 3px rgb(127,75,0),
+  4px 3px rgb(200,100,0), 3px 4px rgb(127,75,0),
+  5px 4px rgb(200,100,0), 4px 5px rgb(127,75,0),
+  6px 5px rgb(200,100,0), 5px 6px rgb(127,75,0);  
+
 }
 
 .current-tab:hover {
   background-color: rgb(255,165,40);
+}
+
+.navbutton {
+  background-color: rgb(87,134,193);
+
+  -webkit-box-shadow: 1px 0px rgb(58,88,127), 0px 1px rgb(65,113,174),
+  2px 1px rgb(58,88,127), 1px 2px rgb(65,113,174),
+  3px 2px rgb(58,88,127), 2px 3px rgb(65,113,174),
+  4px 3px rgb(58,88,127), 3px 4px rgb(65,113,174),
+  5px 4px rgb(58,88,127), 4px 5px rgb(65,113,174),
+  6px 5px rgb(58,88,127), 5px 6px rgb(65,113,174);
+
+  -moz-box-shadow: 1px 0px rgb(58,88,127), 0px 1px rgb(65,113,174),
+  2px 1px rgb(58,88,127), 1px 2px rgb(65,113,174),
+  3px 2px rgb(58,88,127), 2px 3px rgb(65,113,174),
+  4px 3px rgb(58,88,127), 3px 4px rgb(65,113,174),
+  5px 4px rgb(58,88,127), 4px 5px rgb(65,113,174),
+  6px 5px rgb(58,88,127), 5px 6px rgb(65,113,174);
+
+  box-shadow: 1px 0px rgb(58,88,127), 0px 1px rgb(65,113,174),
+  2px 1px rgb(58,88,127), 1px 2px rgb(65,113,174),
+  3px 2px rgb(58,88,127), 2px 3px rgb(65,113,174),
+  4px 3px rgb(58,88,127), 3px 4px rgb(65,113,174),
+  5px 4px rgb(58,88,127), 4px 5px rgb(65,113,174),
+  6px 5px rgb(58,88,127), 5px 6px rgb(65,113,174);              
+}
+
+.navbutton:hover {
+  background-color: rgb(100,145,200);
 }
