@@ -4,12 +4,16 @@ body {
   font-weight: 300;
 }
 
+.cuprum {
+  font-family: 'Cuprum', sans-serif; 
+  letter-spacing: 2px
+}
+
 .site-header {
   margin: 0 0 34px 0;
   background-color: white;
   border-bottom: 5px solid rgb(0,150,255);
-  /*padding-bottom: 12px;*/
-  margin-bottom: 18px;
+  margin-bottom: 0;
 }
 
 .logo-img {
@@ -17,9 +21,8 @@ body {
   padding-bottom: 8px;
 }
 
-.cuprum {
-  font-family: 'Cuprum', sans-serif; 
-  letter-spacing: 2px
+.wide {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .blurb {
@@ -69,7 +72,8 @@ body {
 }
 
 .no-border-video {
-  padding-bottom: 53.34%;
+  padding-bottom: 53%;
+  margin-bottom: 0;
 }
 
 .inner-shadow {
@@ -167,4 +171,9 @@ body {
     font-size: .8rem;
     letter-spacing: 1px;
   }
+
+  .no-border-video {
+    padding-bottom: 49%;
+  }
+
 }
