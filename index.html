@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Home
-top: true
+footer: true
 ---
+
 <div class="wide">
   <div class="row">
     <div class="large-9 medium-9 small-11 large-centered small-centered columns">
@@ -24,8 +25,6 @@ top: true
 
 </div>
 
-<div class="row">
-
   <div class="row">
     <div class="large-12 columns">
       <h1 class="cuprum text-center">Upcoming Events</h1>
@@ -35,17 +34,13 @@ top: true
   {% for post in site.posts %}
 
   <div class="row">
-    <div class="large-10 small-10 large-centered small-centered columns event">
-      <div class="event-header">
-        <h1>{{ post.title }}</h1>
-        <h4>Posted on {{ post.date | date: "%B %-d, %Y" }}</h4>
-      </div>
-      <article class="event-body">
+    <div class="large-8 large-centered post columns">
+      <h1 class="post-header">{{ post.title }}</h1>
+      <article class="post-body">
+        <h4 class="cuprum post-date">posted on {{ post.date | date: "%B %-d, %Y" }}</h4>        
         {{ post.content }}
       </article>
     </div>
   </div>
 
   {% endfor %}
-
-</div>
