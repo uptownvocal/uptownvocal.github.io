@@ -15,32 +15,45 @@ footer: true
 </div>
 
 <div class="row">
-
   <div class="large-9 small-12 large-centered columns">  
     <p class="blurb"><strong>Uptown Vocal</strong> is Columbia University’s premier jazz a cappella group. Founded in 1991, Uptown Vocal has spent the past 24 years performing on campus, all around New York City, and at many other colleges and universities. Recently, UV has performed at the White House and the Popeyes Chicken jingle on Fox & Friends.</p>
-    <div class="text-center"> 
-      <a href="{{ site.baseurl }}/contact" class="dark button radius round">Find out how to book UV</a>
-    </div>
   </div>
-
 </div>
 
-  <div class="row">
-    <div class="large-12 columns">
-      <h1 class="cuprum text-center">Upcoming Events</h1>
+<div class="row">
+  <div class="large-8 small-12 large-centered columns">
+
+    <div class="large-6 text-center columns"> 
+      <a href="{{ site.baseurl }}/contact" class="dark button radius round">Find out how to book UV</a>
     </div>
+
+    <div class="large-6 large-centered columns"> 
+      <ul class="social-media inline-list">
+        <li class="facebook icon" style="margin-left:0"><a title="facebook" href="https://www.facebook.com/UptownVocal"></a></li>
+        <li class="youtube icon"><a title="youtube" href="https://www.youtube.com/user/UptownVocal"></a></li>
+        <li class="twitter icon"><a title="twitter" href="https://twitter.com/UptownVocal"></a></li>
+        <li class="instagram icon" ><a title="instagram" href="https://instagram.com/UptownVocal"></a></li>
+      </ul>
+    </div> 
   </div>
+</div>
 
-  {% for post in site.posts %}
-
-  <div class="row">
-    <div class="large-8 large-centered post columns">
-      <h1 class="post-header">{{ post.title }}</h1>
-      <article class="post-body">
-        <h4 class="cuprum post-date">posted on {{ post.date | date: "%B %-d, %Y" }}</h4>        
-        {{ post.content }}
-      </article>
-    </div>
+<div class="event-header row">
+  <div class="large-12 columns">
+    <h1 class="cuprum text-center">Upcoming Events</h1>
   </div>
+</div>
 
-  {% endfor %}
+{% for post in site.posts %}
+
+<div class="row">
+  <div class="large-8 small-11 large-centered small-centered post columns">
+    <h1 class="post-header">{{ post.title }}</h1>
+    <article class="post-body">
+      <h4 class="cuprum post-date">posted on {{ post.date | date: "%B %-d, %Y" }}</h4>        
+      {{ post.content }}
+    </article>
+  </div>
+</div>
+
+{% endfor %}
