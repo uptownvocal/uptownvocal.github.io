@@ -9,6 +9,16 @@ body {
   letter-spacing: 2px
 }
 
+.dark {
+  background-color: rgb(68,112,182);
+}
+
+.dark:hover {
+  background-color: rgb(100,145,200);
+}
+
+/* ============ HEADER ============ */
+
 .site-header {
   margin: 0 0 34px 0;
   background-color: white;
@@ -21,35 +31,12 @@ body {
   padding-bottom: 8px;
 }
 
-.wide {
-  background-color: rgb(20, 20, 20);  
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.blurb {
-  padding: 10px 40px;
-  font-size: 1.1rem;  
-} 
-
-.no-border-video {
-  padding-bottom: 53%;
-  margin-bottom: 0;
-}
-
 .top-links {
   font-size: 1.6rem;
 }
 
 .center-nav {
   padding-top: 38px;
-}
-
-.dark {
-  background-color: rgb(68,112,182);
-}
-
-.dark:hover {
-  background-color: rgb(100,145,200);
 }
 
 .current-tab {
@@ -111,6 +98,29 @@ body {
   background-color: rgb(100,145,200);
 }
 
+/* ============ VIDEO & BLURB ============ */
+
+.wide {
+  background-color: rgb(20, 20, 20);  
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.blurb {
+  padding: 10px 40px;
+  font-size: 1.1rem;  
+} 
+
+.no-border-video {
+  padding-bottom: 53%;
+  margin-bottom: 0;
+}
+
+/* ============ POSTS ============ */
+
+.event-header {
+  margin-top: 14px;
+}
+
 .post {
   background-color: rgb(150,150,150); 
   background-color: rgba(0,0,0,.15);
@@ -132,6 +142,51 @@ body {
 .post-date {
   font-size: 1.2rem;
 }
+
+/* ============ SOCIAL MEDIA BAR ============ */
+
+.social-media {
+  margin-left: auto;
+  margin-right: auto;
+  width: 260px; /* dependent on size and number of elements*/
+}
+
+.icon {
+  background-size: 48px 48px;
+  background-repeat: no-repeat;  
+}
+
+.icon:hover {
+  background-size: 44px 44px;
+  background-repeat: no-repeat;  
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.icon a {
+  height: 48px; 
+  width: 48px;
+}
+
+.facebook {
+  background-image: url(/assets/img/social-media/facebook.png) ;
+  margin-left: 0;
+}
+
+.youtube {
+   background-image: url(/assets/img/social-media/youtube.png) ; 
+}
+
+.twitter {
+   background-image: url(/assets/img/social-media/twitter.png) ; 
+}
+
+.instagram {
+   background-image: url(/assets/img/social-media/instagram.png) ; 
+}
+
+/* ============ RESPONSIVENESS ============ */
 
 @media only screen and (max-width: 640px) {
   .current-tab, .navbutton {
