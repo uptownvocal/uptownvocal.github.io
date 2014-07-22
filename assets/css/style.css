@@ -189,7 +189,8 @@ body {
 /* ============ MUSIC.html ============ */
 
 .bandcamp {
-  padding-bottom: 48%;
+  min-height: 400px;
+  padding-bottom: 56%;
 }
 
 .bandcamp iframe {
