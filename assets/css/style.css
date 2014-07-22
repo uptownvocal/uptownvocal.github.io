@@ -190,6 +190,7 @@ body {
 
 .bandcamp {
   padding-bottom: 48%;
+  min-height: 400px;
 }
 
 .bandcamp iframe {
