@@ -10,11 +10,11 @@ body {
 }
 
 .dark {
-  background-color: rgb(68,112,182);
+  background-color: rgb(60,150,240);
 }
 
 .dark:hover {
-  background-color: rgb(100,145,200);
+  background-color: rgb(30,160,255);
 }
 
 /* ============ HEADER ============ */
@@ -22,7 +22,7 @@ body {
 .site-header {
   margin: 0 0 34px 0;
   background-color: white;
-  border-bottom: 5px solid rgb(0,150,255);
+  border-bottom: 5px solid rgb(60,150,240);
   margin-bottom: 0;
 }
 
@@ -70,32 +70,32 @@ body {
 }
 
 .navbutton {
-  background-color: rgb(87,134,193);
+  background-color: rgb(60,150,240);
 
-  -webkit-box-shadow: 1px 0px rgb(58,88,127), 0px 1px rgb(65,113,174),
-  2px 1px rgb(58,88,127), 1px 2px rgb(65,113,174),
-  3px 2px rgb(58,88,127), 2px 3px rgb(65,113,174),
-  4px 3px rgb(58,88,127), 3px 4px rgb(65,113,174),
-  5px 4px rgb(58,88,127), 4px 5px rgb(65,113,174),
-  6px 5px rgb(58,88,127), 5px 6px rgb(65,113,174);
+  -webkit-box-shadow: 1px 0px rgb(50,125,200), 0px 1px rgb(45,110,175),
+  2px 1px rgb(50,125,200), 1px 2px rgb(45,110,175),
+  3px 2px rgb(50,125,200), 2px 3px rgb(45,110,175),
+  4px 3px rgb(50,125,200), 3px 4px rgb(45,110,175),
+  5px 4px rgb(50,125,200), 4px 5px rgb(45,110,175),
+  6px 5px rgb(50,125,200), 5px 6px rgb(45,110,175);
 
-  -moz-box-shadow: 1px 0px rgb(58,88,127), 0px 1px rgb(65,113,174),
-  2px 1px rgb(58,88,127), 1px 2px rgb(65,113,174),
-  3px 2px rgb(58,88,127), 2px 3px rgb(65,113,174),
-  4px 3px rgb(58,88,127), 3px 4px rgb(65,113,174),
-  5px 4px rgb(58,88,127), 4px 5px rgb(65,113,174),
-  6px 5px rgb(58,88,127), 5px 6px rgb(65,113,174);
+  -moz-box-shadow: 1px 0px rgb(50,125,200), 0px 1px rgb(45,110,175),
+  2px 1px rgb(50,125,200), 1px 2px rgb(45,110,175),
+  3px 2px rgb(50,125,200), 2px 3px rgb(45,110,175),
+  4px 3px rgb(50,125,200), 3px 4px rgb(45,110,175),
+  5px 4px rgb(50,125,200), 4px 5px rgb(45,110,175),
+  6px 5px rgb(50,125,200), 5px 6px rgb(45,110,175);
 
-  box-shadow: 1px 0px rgb(58,88,127), 0px 1px rgb(65,113,174),
-  2px 1px rgb(58,88,127), 1px 2px rgb(65,113,174),
-  3px 2px rgb(58,88,127), 2px 3px rgb(65,113,174),
-  4px 3px rgb(58,88,127), 3px 4px rgb(65,113,174),
-  5px 4px rgb(58,88,127), 4px 5px rgb(65,113,174),
-  6px 5px rgb(58,88,127), 5px 6px rgb(65,113,174);              
+  box-shadow: 1px 0px rgb(50,125,200), 0px 1px rgb(45,110,175),
+  2px 1px rgb(50,125,200), 1px 2px rgb(45,110,175),
+  3px 2px rgb(50,125,200), 2px 3px rgb(45,110,175),
+  4px 3px rgb(50,125,200), 3px 4px rgb(45,110,175),
+  5px 4px rgb(50,125,200), 4px 5px rgb(45,110,175),
+  6px 5px rgb(50,125,200), 5px 6px rgb(45,110,175);              
 }
 
 .navbutton:hover {
-  background-color: rgb(100,145,200);
+  background-color: rgb(80,140,210);
 }
 
 /* ============ VIDEO & BLURB ============ */
@@ -128,8 +128,8 @@ body {
   margin-bottom: 12px;
 }
 
-.post-header{
-  background-color: rgb(68,112,182);
+.post-header {
+  background-color: rgb(60,150,240);
   color: white;
   padding-left: 14px;
   margin-bottom: 0;
@@ -175,15 +175,15 @@ body {
 }
 
 .youtube {
-   background-image: url(/assets/img/social-media/youtube.png) ; 
+ background-image: url(/assets/img/social-media/youtube.png) ; 
 }
 
 .twitter {
-   background-image: url(/assets/img/social-media/twitter.png) ; 
+ background-image: url(/assets/img/social-media/twitter.png) ; 
 }
 
 .instagram {
-   background-image: url(/assets/img/social-media/instagram.png) ; 
+ background-image: url(/assets/img/social-media/instagram.png) ; 
 }
 
 /* ============ MUSIC.html ============ */
