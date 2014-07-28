@@ -206,11 +206,17 @@ body {
   .current-tab, .navbutton {
     padding-left: .6rem;
     padding-right: .6rem;
-    font-size: .8rem;
+    font-size: .9rem;
     letter-spacing: 1px;
   }
 
   .no-border-video {
     padding-bottom: 49%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .current-tab, .navbutton {
+    font-size: .7rem;
   }
 }
