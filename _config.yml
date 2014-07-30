@@ -5,6 +5,7 @@ description: "Columbia University's Premier Jazz A Cappella Group!"
 baseurl: ""
 url: "http://www.uptownvocal.com"
 imgurl: "/assets/img"
+memburl: "/assets/img/members"
 
 # Build settings
 markdown: kramdown
