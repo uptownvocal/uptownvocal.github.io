@@ -234,13 +234,29 @@ body {
 }
 
 .discography iframe {
-  border: none;
+  border: solid rgb(255,255,255) 4px;  
+  border: solid rgba(255,255,255,.4) 4px;
   width: 200px;
   height: 200px;    
 }
 
 .discography h4 {
   font-size: 1rem;
+}
+
+/* ============ MEMBERS.html ============ */
+
+.members-grid img {
+  border: solid white 4px;
+}
+
+.members-grid h4 {
+  font-size: 1.1rem;
+/*  position: relative;
+  top: -32px;
+  background-color: rgb(255,255,255);  
+  background-color: rgba(255,255,255,.8);*/
+  text-align: center;
 }
 
 /* ============ RESPONSIVENESS ============ */
@@ -267,10 +283,23 @@ body {
     font-size: .8rem;
   }
 
-}
-
-@media only screen and (max-width: 500px) {
-  .current-tab, .navbutton {
-    font-size: .7rem;
+  .members-grid img {
+    border: solid white 3px;
   }
-}
+
+
+  .members-grid h4 {
+    position: static;
+    font-size: .7rem;
+
+  }
+
+  @media only screen and (max-width: 500px) {
+    .current-tab, .navbutton {
+      font-size: .7rem;
+    }
+
+  .members-grid img {
+    border: solid white 2px;
+  }    
+  }
