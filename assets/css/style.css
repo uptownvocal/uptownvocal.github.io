@@ -234,7 +234,8 @@ body {
 }
 
 .discography iframe {
-  border: none;
+  border: solid rgb(255,255,255) 4px;  
+  border: solid rgba(255,255,255,.4) 4px;
   width: 200px;
   height: 200px;    
 }
