@@ -1,15 +1,14 @@
 <header class="site-header">
 
   <div class="row">
-
+    
     <div class="large-4 logo-img columns">
-      <h1><img style="max-height: 99px; margin: auto;" src="{{ site.imgurl }}/logo.png"></h1>
+      <a href="{{ site.baseurl }}/"><h1><img style="max-height: 99px; margin: auto;" src="{{ site.imgurl }}/logo.png"></h1></a>
     </div>
 
     <div class="large-8 columns">
       <ul class="even-5 button-group">
-        <li>
-          <a href="{{ site.baseurl }}/"        
+        <li><a href="{{ site.baseurl }}/"        
           {% if page.title == 'Home' %}
           class="current-tab cuprum button">home
           {% else %}
@@ -24,29 +23,29 @@
           {% endif %}
         </a></li>
         <li><a href="{{ site.baseurl }}/members" 
-         {% if page.title == 'Members' %}
-         class="current-tab cuprum button">members
-         {% else %}
-         class="cuprum navbutton button">members
-         {% endif %}
-       </a></li>
-       <li><a href="{{ site.baseurl }}/about"   
-         {% if page.title == 'About' %}
-         class="current-tab cuprum button">about
-         {% else %}
-         class="cuprum navbutton button">about
-         {% endif %}
-       </a></li>
-       <li><a href="{{ site.baseurl }}/contact" 
-         {% if page.title == 'Contact' %}
-         class="current-tab cuprum button">contact
-         {% else %}
-         class="cuprum navbutton button">contact
-         {% endif %}
-       </a></li>  
-     </ul>
-   </div>
+          {% if page.title == 'Members' %}
+          class="current-tab cuprum button">members
+          {% else %}
+          class="cuprum navbutton button">members
+          {% endif %}
+        </a></li>
+        <li><a href="{{ site.baseurl }}/about"   
+          {% if page.title == 'About' %}
+          class="current-tab cuprum button">about
+          {% else %}
+          class="cuprum navbutton button">about
+          {% endif %}
+        </a></li>
+        <li><a href="{{ site.baseurl }}/contact" 
+          {% if page.title == 'Contact' %}
+          class="current-tab cuprum button">contact
+          {% else %}
+          class="cuprum navbutton button">contact
+          {% endif %}
+        </a></li>  
+      </ul>
+    </div>
 
- </div>
+  </div>
 
 </header>
