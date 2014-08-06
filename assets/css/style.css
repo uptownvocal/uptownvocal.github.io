@@ -287,19 +287,24 @@ body {
     border: solid white 3px;
   }
 
-
   .members-grid h4 {
     position: static;
     font-size: .7rem;
-
   }
+  
+}
 
-  @media only screen and (max-width: 500px) {
-    .current-tab, .navbutton {
-      font-size: .7rem;
-    }
+@media only screen and (max-width: 500px) {
+  .current-tab, .navbutton {
+    font-size: .7rem;
+  }
 
   .members-grid img {
     border: solid white 2px;
-  }    
+  }   
+
+  .blurb {
+    padding: 10px 10px;
   }
+
+}
