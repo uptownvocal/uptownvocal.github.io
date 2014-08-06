@@ -261,6 +261,12 @@ body {
 
 /* ============ RESPONSIVENESS ============ */
 
+.contact-banner img {
+  border: solid white 6px;
+}
+
+/* ============ RESPONSIVENESS ============ */
+
 @media only screen and (max-width: 640px) {
   .current-tab, .navbutton {
     padding-left: .6rem;
