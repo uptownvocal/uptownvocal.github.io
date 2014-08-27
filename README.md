@@ -1,6 +1,10 @@
 Uptown Vocal Website
 ====================
 
+####version 0.20
+* social media icons in navbar
+* typo in blurb
+
 ####version 0.14
 * Improved header text for mobile
 * Theater mode for video on front page
