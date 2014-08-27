@@ -263,6 +263,70 @@ body {
   text-align: center;
 }
 
+/* --- Modals --- */
+
+.modalDialog {
+  position: fixed;
+
+  top:    0;
+  right:  0;
+  bottom: 0;
+  left:   0;
+
+  background: rgb(0,0,0);  
+  background: rgba(0,0,0,0.7);
+
+  z-index: 99999;
+  opacity:0;
+
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+
+  pointer-events: none;
+}
+
+.modalDialog:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modalDialog > div {
+  position: relative;
+  width: 600px;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: rgb(255,255,255);
+}
+
+.close {
+  background: rgb(96,96,96);
+  color: rgb(255,255,255);
+
+  width: 24px;
+  position: absolute;  
+  top: -10px;  
+  right: -12px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 25px;
+  font-weight: bold;
+
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -webkit-box-shadow: 1px 1px 3px rgb(0,0,0);
+  -moz-box-shadow: 1px 1px 3px rgb(0,0,0);
+  box-shadow: 1px 1px 3px rgb(0,0,0);
+}
+
+.close:hover { 
+  color: black;
+  background: rgb(60,150,240); 
+}
+
 /* ============ RESPONSIVENESS ============ */
 
 .contact-banner img {
@@ -278,7 +342,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {  
   .current-tab, .navbutton {
     padding-left: .6rem;
     padding-right: .6rem;
@@ -309,6 +373,9 @@ body {
     font-size: .7rem;
   }
   
+  .modalDialog > div {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -323,5 +390,4 @@ body {
   .blurb {
     padding: 10px 10px;
   }
-
 }
