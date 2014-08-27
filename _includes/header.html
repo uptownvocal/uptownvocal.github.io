@@ -1,49 +1,64 @@
 <header class="site-header">
 
   <div class="row">
-    
+
     <div class="large-4 logo-img columns">
       <a href="{{ site.baseurl }}/"><h1><img style="max-height: 99px; margin: auto;" src="{{ site.imgurl }}/logo.png"></h1></a>
     </div>
 
     <div class="large-8 columns">
-      <ul class="even-5 button-group">
-        <li><a href="{{ site.baseurl }}/"        
-          {% if page.title == 'Home' %}
-          class="current-tab cuprum button">home
-          {% else %}
-          class="cuprum navbutton button">home
-          {% endif %}
-        </a></li>
-        <li><a href="{{ site.baseurl }}/music"
-          {% if page.title == 'Music' %}
-          class="current-tab cuprum button">music
-          {% else %}
-          class="cuprum navbutton button">music
-          {% endif %}
-        </a></li>
-        <li><a href="{{ site.baseurl }}/members" 
-          {% if page.title == 'Members' %}
-          class="current-tab cuprum button">members
-          {% else %}
-          class="cuprum navbutton button">members
-          {% endif %}
-        </a></li>
-        <li><a href="{{ site.baseurl }}/about"   
-          {% if page.title == 'About' %}
-          class="current-tab cuprum button">about
-          {% else %}
-          class="cuprum navbutton button">about
-          {% endif %}
-        </a></li>
-        <li><a href="{{ site.baseurl }}/contact" 
-          {% if page.title == 'Contact' %}
-          class="current-tab cuprum button">contact
-          {% else %}
-          class="cuprum navbutton button">contact
-          {% endif %}
-        </a></li>  
-      </ul>
+
+      <div class="row">
+        <ul class="even-5 button-group">
+          <li><a href="{{ site.baseurl }}/"        
+            {% if page.title == 'Home' %}
+            class="current-tab cuprum button">home
+            {% else %}
+            class="cuprum navbutton button">home
+            {% endif %}
+          </a></li>
+          <li><a href="{{ site.baseurl }}/music"
+            {% if page.title == 'Music' %}
+            class="current-tab cuprum button">music
+            {% else %}
+            class="cuprum navbutton button">music
+            {% endif %}
+          </a></li>
+          <li><a href="{{ site.baseurl }}/members" 
+            {% if page.title == 'Members' %}
+            class="current-tab cuprum button">members
+            {% else %}
+            class="cuprum navbutton button">members
+            {% endif %}
+          </a></li>
+          <li><a href="{{ site.baseurl }}/about"   
+            {% if page.title == 'About' %}
+            class="current-tab cuprum button">about
+            {% else %}
+            class="cuprum navbutton button">about
+            {% endif %}
+          </a></li>
+          <li><a href="{{ site.baseurl }}/contact" 
+            {% if page.title == 'Contact' %}
+            class="current-tab cuprum button">contact
+            {% else %}
+            class="cuprum navbutton button">contact
+            {% endif %}
+          </a></li>  
+        </ul>
+      </div>
+
+      <div class="row">
+        <div class="columns"> 
+          <ul class="social-media inline-list">
+            <li class="facebook icon" style="margin-left:0"><a title="facebook" href="https://www.facebook.com/UptownVocal"></a></li>
+            <li class="youtube icon"><a title="youtube" href="https://www.youtube.com/user/UptownVocal"></a></li>
+            <li class="twitter icon"><a title="twitter" href="https://twitter.com/UptownVocal"></a></li>
+            <li class="instagram icon" ><a title="instagram" href="https://instagram.com/UptownVocal"></a></li>
+          </ul>
+        </div> 
+      </div>
+
     </div>
 
   </div>
