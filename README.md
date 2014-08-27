@@ -1,6 +1,9 @@
 Uptown Vocal Website
 ====================
 
+####version 0.22
+* Font update
+
 ####version 0.21
 * temporarily removed footer site-map
 
