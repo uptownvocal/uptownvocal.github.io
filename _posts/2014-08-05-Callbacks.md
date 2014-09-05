@@ -18,6 +18,7 @@ First round of auditions are now officially over! The people who made it to Call
 * Logan Jones-Merrin
 * Anita Rao
 * Victoria Alejandro
+* Adella Pierre
 * Liv Williamson
 * Maddy Meyer
 * Elizabeth Lee
