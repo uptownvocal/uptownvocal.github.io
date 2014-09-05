@@ -6,20 +6,15 @@
       <div class="large-6 columns">
         <p>© Uptown Vocal {{ site.time | date: "%Y" }}</p>
       </div>
-      <div class="large-6 columns">
-  <!--  <ul class="inline-list right">
-
-          {% for page in site.pages %}
-          {% if page.footer %}
-
-          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>          
-          
-          {% endif %}
-          {% endfor %}
-
-        </ul> -->
-      </div>
     </div>
   </div>
   
 </footer>
+
+<script src="{{ site.baseurl }}/assets/js/vendor/jquery.js"></script>
+<script src="{{ site.baseurl }}/assets/js/foundation/foundation.js"></script>
+<script src="{{ site.baseurl }}/assets/js/foundation/foundation.equalizer.js"></script>
+
+<script>
+  $(document).foundation();
+</script>
