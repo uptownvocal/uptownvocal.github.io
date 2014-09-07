@@ -2,6 +2,9 @@ Uptown Vocal Website
 ====================
 
 ####version 0.23
+* Colors and fonts on hover on members
+
+####version 0.23
 * Modal bios on the members page
 
 ####version 0.22
