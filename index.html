@@ -45,10 +45,13 @@ footer: true
       {% for post in site.posts %}
 
       <div class="row">
-        <div class="large-12 large-centered columns">
-          <h1 class="sans">{{ post.title }}</h1>
+        <div class="large-11 events large-centered columns">
           <article>
-            <h4 class="sans">posted on {{ post.date | date: "%B %-d, %Y" }}</h4>        
+            <div class="event-title">
+              <h1 class="sans">{{ post.title }}</h1>
+              <h2 class="sans">posted on {{ post.date | date: "%B %-d, %Y" }}</h2>
+            </div>
+            <hr>        
             {{ post.content }}
           </article>
         </div>
