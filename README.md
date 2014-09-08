@@ -1,6 +1,11 @@
 Uptown Vocal Website
 ====================
 
+####version 0.24
+* New "boxed" layout for homepage
+* Responsiveness for boxes
+* Photo slider on home page
+
 ####version 0.23
 * Colors and fonts on hover on members
 
