@@ -1,6 +1,9 @@
 Uptown Vocal Website
 ====================
 
+####version 0.25
+* Boxed layout on Members and About
+
 ####version 0.24
 * New "boxed" layout for homepage
 * Responsiveness for boxes
