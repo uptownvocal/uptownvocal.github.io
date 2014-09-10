@@ -27,8 +27,10 @@ h1, h2, h3, h4 {
   background-color: rgb(30,160,255);
 }
 
-.center-text {
-  text-align: center;
+.box-shadow {
+  -webkit-box-shadow: 1px 1px 2px 0 rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    1px 1px 2px 0 rgba(50, 50, 50, 0.75);
+  box-shadow:         1px 1px 2px 0 rgba(50, 50, 50, 0.75);
 }
 
 /* ============ HEADER ============ */
@@ -112,17 +114,11 @@ h1, h2, h3, h4 {
   background-color: rgb(80,140,210);
 }
 
-/* ============ VIDEO & BLURB ============ */
-
-.wide {
-  background-color: rgb(20, 20, 20);  
-  background-color: rgba(0, 0, 0, 0.8);
-}
+/* ============ HOME ============ */
 
 .blurb {
   padding: 12px 20px 4px 20px;  
-  font-size: 1rem;  
-  text-align: center;
+  font-size: 1rem;
 } 
 
 .no-border-video {
@@ -155,6 +151,7 @@ h1, h2, h3, h4 {
   padding-top: 6px;
   padding-bottom: 2px;
   text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.16);  
 }
 
 .clear {
@@ -166,9 +163,6 @@ h1, h2, h3, h4 {
 }
 
 .containerbox {
-  -webkit-box-shadow: 1px 1px 2px 0 rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    1px 1px 2px 0 rgba(50, 50, 50, 0.75);
-  box-shadow:         1px 1px 2px 0 rgba(50, 50, 50, 0.75);
   -webkit-border-radius: 2px;
   -moz-border-radius:    2px;
   border-radius:         2px;
@@ -200,7 +194,9 @@ h1, h2, h3, h4 {
 }
 
 .slick-slider {
-  box-shadow: 1px 1px 2px 0 rgba(50, 50, 50, 0.75);
+  -webkit-box-shadow: 1px 1px 2px 0 rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    1px 1px 2px 0 rgba(50, 50, 50, 0.75);
+  box-shadow:         1px 1px 2px 0 rgba(50, 50, 50, 0.75);
 }
 
 .photos img {
@@ -212,6 +208,15 @@ h1, h2, h3, h4 {
 
 .slick-dots {
   margin-left: 0;
+}
+
+.update-banner {
+  background-color: rgb(245, 20, 20);
+  margin: 0;
+  text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.35);
+  color: rgb(255,255,255);
+  font-size: 1.5rem;  
 }
 
 /* ============ POSTS ============ */
@@ -419,8 +424,8 @@ h1, h2, h3, h4 {
   -moz-border-radius: 12px;
   border-radius: 12px;
   -webkit-box-shadow: 1px 1px 3px rgb(0,0,0);
-  -moz-box-shadow: 1px 1px 3px rgb(0,0,0);
-  box-shadow: 1px 1px 3px rgb(0,0,0);
+  -moz-box-shadow:    1px 1px 3px rgb(0,0,0);
+  box-shadow:         1px 1px 3px rgb(0,0,0);
 }
 
 .close:hover { 
