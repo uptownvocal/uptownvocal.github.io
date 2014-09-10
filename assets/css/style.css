@@ -210,6 +210,10 @@ h1, h2, h3, h4 {
   border-radius:         2px;  
 }
 
+.slick-dots {
+  margin-left: 0;
+}
+
 /* ============ POSTS ============ */
 
 .event-header {
