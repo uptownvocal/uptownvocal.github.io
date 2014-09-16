@@ -1,8 +1,9 @@
 Uptown Vocal Website
 ====================
 
-####version 0.25
+####version 0.26
 * Boxed layout on Members and About
+* Fixed .close button bug on members page
 
 ####version 0.24
 * New "boxed" layout for homepage
@@ -11,15 +12,10 @@ Uptown Vocal Website
 
 ####version 0.23
 * Colors and fonts on hover on members
-
-####version 0.23
 * Modal bios on the members page
 
 ####version 0.22
 * Font update
-
-####version 0.21
-* temporarily removed footer site-map
 
 ####version 0.20
 * social media icons in navbar
