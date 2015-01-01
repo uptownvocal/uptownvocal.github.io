@@ -7,6 +7,7 @@ Uptown Vocal Website
 * New color background
 * Returning member
 * New CD (Premium Blend) in Music
+* SEO
 
 ###version 0.26
 * Boxed layout on Members and About
