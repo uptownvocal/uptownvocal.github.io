@@ -5,6 +5,7 @@ Uptown Vocal Website
 *January 1st, 2015*
 
 * Javascript Optimization
+* Humans/Robots
 
 ###version 0.30
 *December 30th, 2014*
