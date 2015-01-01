@@ -1,7 +1,12 @@
 Uptown Vocal Website
 ====================
 
-###version 0.3
+###version 0.31
+*January 1st, 2015*
+
+* Javascript Optimization
+
+###version 0.30
 *December 30th, 2014*
 
 * New color background
