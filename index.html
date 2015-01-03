@@ -54,14 +54,16 @@ footer: true
       {% for post in site.posts %}
 
       <div class="row">
-        <div class="large-11 events large-centered columns">
+        <div class="large-11 large-centered columns">
           <article>
-            <div class="event-title">
-              <h1 class="sans">{{ post.title }}</h1>
-              <h2 class="sans"><em>posted on {{ post.date | date: "%B %-d, %Y" }}</em></h2>
+            <div>
+              <h1 class="event-title">{{ post.title }}</h1>
+              <h2 class="event-date"><em>posted on {{ post.date | date: "%B %-d, %Y" }}</em></h2>
             </div>
-            <hr>        
-            {{ post.content }}
+            <hr class="event-bar">
+            <div class="events">
+              {{ post.content }}
+            </div>
           </article>
         </div>
       </div>
@@ -69,7 +71,6 @@ footer: true
       {% endfor %}
 
     </div>
-
 
     <div class="clear"></div>
 
