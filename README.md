@@ -1,9 +1,10 @@
 Uptown Vocal Website
 ====================
 
-###version 0.32
-*January 3rd, 2015*
+###version 0.33
+*January 4th, 2015*
 
+* Replaced Spotify embedded player with Soundcloud
 * More transparency and box-shadows
 
 ###version 0.31
