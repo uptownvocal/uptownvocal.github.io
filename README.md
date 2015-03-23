@@ -1,6 +1,12 @@
 Uptown Vocal Website
 ====================
 
+###version 0.35
+*March 23rd, 2015*
+
+* Jon Shapiro's Bio
+* Default template for direct-linked posts
+
 ###version 0.33
 *January 4th, 2015*
 
