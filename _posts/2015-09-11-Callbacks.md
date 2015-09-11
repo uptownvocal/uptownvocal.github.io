@@ -4,28 +4,23 @@ title : Callbacks
 ---
 The first round of auditions are now officially over! The people who made it to Callbacks are:
 
-####Soprano:
+####Women:
 * Jackie Brown
+* Amy Ding
 * Jessie Edgar
 * Claire Fry
 * Molly Ganley
-* Carson Kraft
-
-####Alto:
-* Amy Ding
 * Karinya Ghiara
+* Carson Kraft
 * Carly Lenniger
 * Christina St. Louis
 
-####Tenor:
+####Men:
+* Ben Arenstein
 * Jordan Cline
+* Octavio Galaviz
 * Desmond Hanan
 * Jungsoo Lee
-
-####Bass:
-* Adam Alpert
-* Ben Arenstein
-* Octavio Galaviz
 * Ethan O'Neal
 * Liam Riley
 
