@@ -346,6 +346,10 @@ hr {
   position: relative;
 }
 
+.paypal a {
+  width: 120px;
+}
+
 .grad {
   margin-top: 2px;
 
