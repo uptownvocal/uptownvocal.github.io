@@ -5,24 +5,24 @@ title : Callbacks
 
 The first round of auditions are officially over! The callback list includes:
 
-####Sopranos
+####Sopranos:
 * Jane Reel
 * Michelle Tang
 * Sahana Narayanan
 * Toni Woods
 
-####Altos
+####Altos:
 * Lexie Kapilian
 * Marisa Ngbemeneh
 * Mason Murray
 
-####Tenors
+####Tenors:
 * Arthur Zaharko
 * Gus O'Connor
 * John Pavlides
 * Jonathan Kapilian
 
-####Basses
+####Basses:
 * August Gweon
 * Ben Eisenstadt
 * Jake Naimark
