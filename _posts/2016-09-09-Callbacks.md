@@ -2,7 +2,6 @@
 layout: post
 title : Callbacks
 ---
-
 The first round of auditions are officially over! The callback list includes:
 
 ####Sopranos:
