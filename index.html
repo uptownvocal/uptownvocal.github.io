@@ -1,90 +1,94 @@
----
-layout: default
-title: Home
-footer: true
----
-
-<!-- Update Banner: Uncomment to Send Message on Front Page -->
-<!--
-<div class="row rp">
-  <div class="large-12 large-centered columns">
-    <h2 class="update-banner">Update: Auditions Moved to Kent</h2>
-  </div>
-</div>
--->
-
-<div class="row rp" data-equalizer>
-  <div class="large-12 large-centered columns">
-    <div class="large-9 left-column columns" data-equalizer-watch>
-      <div class="row">
-        <div class="video-box box-shadow large-12 large-centered columns">
-          <div class="flex-video no-border-video">
-            <iframe width="640" height="360" src="//www.youtube.com/embed/Aqh3IVQLKio?controls=1&showinfo=0&autohide=1" frameborder="0" allowfullscreen></iframe>
-          </div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Uptown Vocal</title>
+	<link rel="icon" type="image/png" href="graphics/favicon.png">
+  </head>
+  <body>
+    <div class="nav">
+        <div class="subway">
+          <img src="graphics/subway4000px300px.png" height="100%" width="72%">
         </div>
-      </div>
-      <div class="containerbox box-shadow row left-content">
-        <div class="row">
-          <div class="large-12 large-centered columns">
-            <p class="text-center blurb"><strong>Uptown Vocal</strong> is Columbia University’s premier jazz a cappella group. Since 1991, these cool cats have been bringing new and interesting takes on all of your favorite jazz standards. We have performed on college campuses, bars, hotels, cruise ships, morning shows and even on stage with Ben Folds!</p>
-          </div>
+        <div class="logo">
+          <span class="toggle-menu toggle-menu-ham">
+            <span class="hamburger hamburger-nav"></span>
+          </span>
+          <span class="toggle-menu toggle-menu-x">
+            <span class="x x-nav"></span>
+          </span>
+          <img src="graphics/UV.png" alt="UV Logo">
         </div>
-        <div class="row">
-          <div class="large-12 text-center columns">
-            <a href="{{ site.baseurl }}/contact" class="grad button radius round">Find out how to book UV</a>
-          </div>
-        </div>
+        <!-- Dropdown or slide in from left? Take up full screen? idk -->
+        <ul class="menu">
+            <li><a href="index.html" class="bolded-link">Home</a></li>
+            <li><a href="about.html" class="boldless-link">About</a></li>
+            <li><a href="music.html" class="boldless-link">Music</a></li>
+            <li><a href="video.html" class="boldless-link">Video</a></li>
+            <li><a href="members.html" class="boldless-link">Members</a></li>
+            <li><a href="contact.html" class="boldless-link">Contact</a></li>
+          </ul>
+        </ul>
       </div>
     </div>
-    <div class="large-3 right-column containerbox box-shadow columns" data-equalizer-watch>
-      <div class="row">
-        <div class="large-12 events-header columns">
-          <h2 class="sans">Announcements</h2>
-        </div>
+    <!-- OTHER CONTENT -->
+    <!-- PUT EVERYTHING IN HERE -->
+    <div class="content-align">
+      <!-- TITLE OF PAGE -->
+      <div class="content-title">
+	      <h2><br /></h2>
       </div>
-      {% for post in site.posts %}
-      <div class="row">
-        <div class="large-11 large-centered columns">
-          <article>
-            <div>
-              <h1 class="event-title">{{ post.title }}</h1>
-              <h2 class="event-date"><em>posted on {{ post.date | date: "%B %-d, %Y" }}</em></h2>
+      <!-- SLIDESHOW -->
+      <div class="index-content colored-border" id="rounded-corners">
+        <center><div class="slideshow slideshow-home">
+          <div class="slideshow-container slideshow-container-home">
+            <div class="arrow-left">
+              <img src="graphics/arrow-left.png" alt="">
             </div>
-            <hr class="event-bar">
-            <div class="events">
-              {{ post.content }}
+            <div class="arrow-right">
+              <img src="graphics/arrow-right.png" alt="">
             </div>
-          </article>
-        </div>
-      </div>
-      {% endfor %}
+            <div class="dots">
+              <ul class="circle-container">
+                <li class="circle"></li>
+                <li class="circle"></li>
+                <li class="circle"></li>
+              </ul>
+            </div>
+          </div>
+        </div></center>
+  		<p><b>Uptown Vocal</b> is Columbia University's premier jazz a cappella group.
+  		Since 1991, these cool cats have been bringing new and interesting takes on all of your favorite jazz standards.
+  		We have performed on college campuses, bars, hotels, cruise ships, morning shows and even on stage with Ben Folds!</p>
+     </div>
+     <!-- Announcements -->
+     <div class="index-content colored-border" id="rounded-corners">
+       <h2>Announcements</h2>
+       <div class="entry">
+         <h3>New Album Release!</h3>
+         <h4>Posted on May 1, 2017</h4>
+         <div class="hr"></div>
+         <p>We are thrilled to announce the release of our newest album, <i><b>UV</b></i>.  Featuring singers from the Class of 2015 to 2020, this eponymous album is a testament to our signature jazzy style.  The album is available on streaming platforms such as iTunes and Spotify, and you can also <a href="cd-order.html">order a physical copy</a> to start listening today!</p>
+       </div>
+     </div>
+     <div class="footer"><p>&copy; Uptown Vocal 2017</p></div>
     </div>
-    <div class="clear"></div>
-    <div class="row rp">
-      <div class="photos large-12 large-centered columns">
-        <h1 class="floating-text text-center sans">Photos</h1>
-        <div class="slider">
-          <div>
-            <img src="{{ site.imgurl }}/slider/image0.jpg" alt="slide 0" />
-          </div>
-          <div>
-            <img src="{{ site.imgurl }}/slider/imageA.jpg" alt="slide 1" />
-          </div>
-          <div>
-            <img src="{{ site.imgurl }}/slider/imageB.jpg" alt="slide 2" />
-          </div>
-          <div>
-            <img src="{{ site.imgurl }}/slider/imageC.jpg" alt="slide 3" />
-          </div>
-          <div>
-            <img src="{{ site.imgurl }}/slider/imageD.jpg" alt="slide 4" />
-          </div>
-          <div>
-            <img src="{{ site.imgurl }}/slider/imageE.jpg" alt="slide 5" />
-          </div>
-        </div>
-      </div>
+    <!-- Social media icons -->
+    <div class="social-media-container">
+      <ul class="social-icons">
+        <li><a href="https://www.facebook.com/UptownVocal/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/UptownVocal"><i class="fa fa-twitter-square" aria-hidden="true"></a></i></li>
+        <li><a href="https://www.paypal.me/UptownVocal" title="Donate now"><i class="fa fa-paypal" aria-hidden="true"></i></a></li>
+		<li><a href="https://www.youtube.com/user/UptownVocal"><i class="fa fa-youtube-square" aria-hidden="true"></a></i></li>
+        <li><a href="https://www.instagram.com/uptownvocal/"><i class="fa fa-instagram" aria-hidden="true"></a></i></li>
+      </ul>
     </div>
-  </div>
-
-</div>
+    <!-- TO GREY OUT REST OF THE MOBILE SITE -->
+    <div class="mobile-overlay"></div>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/indexSlide.js"></script>
+  </body>
+</html>
