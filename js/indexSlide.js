@@ -56,7 +56,7 @@ function preloadImages(array) {
   }
 }
 var imageURLs = ["graphics/homeSlide/IMG_5675.jpg",
-                 "graphics/homeSlide/2.jpg",
+                 "graphics/homeSlide/IMG_3811.jpg",
                  "graphics/homeSlide/3.jpg"];
 preloadImages(imageURLs);
 
