@@ -26,7 +26,8 @@ arrowRight.addEventListener("click", function() {
 function changePicture(sign) {
   changeCircles(sign);
   // change picture to "[pointer].jpg"
-  slideshowPicture.style.background = "url(\"graphics/homeSlide/" + (pointer+1) + ".jpg\")";
+  // changed folder to homeSlideArchive for workaround
+  slideshowPicture.style.background = "url(\"graphics/homeSlideArchive/" + (pointer+1) + ".jpg\")";
   slideshowPicture.style.backgroundSize = "100% 100%";
   slideshowPicture.style.backgroundRepeat = "no-repeat";
 }
@@ -55,9 +56,10 @@ function preloadImages(array) {
       preloadImages.cache.push(img);
   }
 }
-var imageURLs = ["graphics/homeSlide/IMG_5675.JPG",
-                 "graphics/homeSlide/IMG_3811.JPG",
-                 "graphics/homeSlide/3.jpg"];
+// changed to homeSlideArchive, reuploaded pictures with names that are pointer friendly
+var imageURLs = ["graphics/homeSlideArchive/1.jpg",
+                 "graphics/homeSlideArchive/2.jpg",
+                 "graphics/homeSlideArchive/3.jpg"];
 preloadImages(imageURLs);
 
 window.addEventListener("resize", changeHeight);
