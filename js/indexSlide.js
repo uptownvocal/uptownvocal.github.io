@@ -59,7 +59,8 @@ function preloadImages(array) {
 // changed to homeSlideArchive, reuploaded pictures with names that are pointer friendly
 var imageURLs = ["graphics/homeSlideArchive/1.jpg",
                  "graphics/homeSlideArchive/2.jpg",
-                 "graphics/homeSlideArchive/3.jpg"];
+                 "graphics/homeSlideArchive/3.jpg"
+                 "graphics/homeSlideArchive/4.JPG"];
 preloadImages(imageURLs);
 
 window.addEventListener("resize", changeHeight);
